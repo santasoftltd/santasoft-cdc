@@ -1,0 +1,60 @@
+.tmu-module-subSideBar{
+    height: 98vh;
+    width: 15%;
+    position: fixed;
+    top: 66px;
+    left: 15%;
+    z-index: 1;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.features-block{
+    height: 84vh;
+    overflow: hidden;
+}
+.tmu-module-subSideBar:hover .features-block{
+    overflow: auto;
+}
+
+.module-features{
+    display: grid;
+    grid-template-columns: 1fr;
+    cursor: pointer;
+}
+.tmu-module-subSideBar:hover .module-features{
+    grid-template-columns: 1fr 4fr;
+}
+.tmu-module-subSideBar:hover .module-features-title{
+    display: block;
+}
+.module-features:hover{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+.module-features-title{
+    display: none;
+}
+
+.Module-services-title{
+    font-size: small;
+    margin: 9px 0px 8px 10px;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+.Module-services-pic{
+    height: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Module-main-service-title{
+    font-size: medium;
+    margin: 9px 0px 10px 10px;
+}
+.Module-main-service-pic{
+    height: 20px;
+}

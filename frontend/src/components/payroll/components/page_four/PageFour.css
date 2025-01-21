@@ -1,0 +1,16 @@
+.page-header{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 3%;
+    width: 100%;
+    padding-left: 1%;
+}
+.page-title{
+    font-weight: 600;
+    font-size: large;
+    margin: 11px 0px 4px 0px;
+}
+
+.home{
+    padding-top: 1%;
+}

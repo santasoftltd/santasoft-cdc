@@ -1,0 +1,16 @@
+
+services:
+  web:
+    build: .
+    image: santasoft_dummy_service:1.0.2  # Custom image name and tag
+    container_name: santasoft_dummy_service
+    command: gunicorn --bind 0.0.0.0:8000 config.wsgi:application --workers 3
+    volumes:
+      - .:/app
+      - C:/santasoft/config/cdc.config.txt:/app/cdc.config.txt
+    ports:
+      - "8001:8000"
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - ENV PYTHONUNBUFFERED=1
+      - CDC_CONFIG_FILE=/app/cdc.config.txt

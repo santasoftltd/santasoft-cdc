@@ -1,0 +1,102 @@
+.Main-Container{
+    /* border: 1px solid black; */
+    height: 93vh;
+    width: 99.80%;
+    padding-top: 50px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 4fr; */
+}
+.Sub-ContainerOne{
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    padding-bottom: 200px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    overflow: hidden;
+    width: 240px;
+}
+#Side-Categories{
+    border: 1px solid transparent;
+    padding-left: 14px;
+    cursor: pointer;
+    /* border-radius: 0px 25px 25px 0px; */
+}
+#Side-Categories:hover{
+    border: 1px solid transparent;
+    background-color: rgb(227, 227, 255);
+    color: rgb(56, 56, 252);
+    border-radius: 0px 25px 25px 0px;
+}
+.Sub-ContainerTwo{
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    margin-left: 240px;
+    /* margin-top: 10px; */
+    height: 92vh;
+    width: 82%;
+}
+/* #One{ */
+    /* border: 1px solid black; */
+/* } */
+#One-One{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 40px 10px 10px 0px;
+    /* margin-top: 20px; */
+}
+#One-Two{
+    padding-left: 20px;
+    font-size: medium;
+    margin: 10px 300px 20px 0px;
+    /* margin-top: 20px; */
+}
+
+
+/* #Two{
+    border: 1px solid black;
+} */
+.Module-Categories{
+    /* border: 1px solid blueviolet; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    /* height: 50px; */
+    margin: 20px 200px 60px 20px;
+}
+/* #SubModuleOne{
+    border: 1px solid brown;
+} */
+#Two-One{
+    /* border: 1px solid black; */
+    /* padding-left: 20px; */
+    font-weight:500;
+    font-size: large;
+    margin: 1px 10px 5px 0px;
+    /* margin-top: 20px; */
+}
+#Two-Two{
+    /* padding-left: 20px; */
+    font-size: small;
+    margin: 5px 10px 10px 0px;
+    /* margin-top: 20px; */
+}
+
+/* #SubModuleTwo{
+    border: 1px solid green;
+} */
+#ModuleTable{
+    /* border: 1px solid purple; */
+    border-collapse: collapse;
+}
+/* th{
+    text-align: 'left';
+    font-size: 'small';
+} */

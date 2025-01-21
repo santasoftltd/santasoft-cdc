@@ -1,0 +1,115 @@
+.deal-ticket-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.deal-ticket-sub-home-second-container{
+    /* border: 1px solid black; */
+    /* height: 85%; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.mm-deal-form{
+    /* border: 1px solid black; */
+    margin: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content;
+    /* gap: 8px; */
+    height: 100%;
+}
+
+.mm-deal-form-container{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /* gap: 15px; */
+    column-gap: 15px;
+    /* row-gap: 4px; */
+    /* height: 90%; */
+}
+
+
+.mm-deal-form label{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c4966;
+    display: block;
+    white-space: nowrap;
+    padding: 6px 0px 0px 0px;
+}
+
+.mm-deal-form input{
+    border: 1px solid rgb(148, 148, 148);
+    width: 86%;
+    height: 18px;
+    border-radius: 3px;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 0px 1px 0px 0px; */
+}
+
+.mm-deal-form select{
+    border: 1px solid rgb(148, 148, 148);
+    /* display: inline; */
+    width: 90%;
+    height: 22px;
+    border-radius: 4px;
+    background-color: white;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 0px 1px 0px 1px; */
+}
+
+.mm-deal-form input[type=checkbox]{
+    /* display: inline; */
+    margin: 0px 0px 0px 1%;
+    width: min-content;
+    height: 10px;
+    font-size: x-small;
+}
+
+.mm-deal-form-button{
+    vertical-align: middle;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 14px; */
+    margin: 2px 2px;
+    /* margin-bottom: 1pc; */
+    margin-left: 0.1%;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 5%; */
+    margin-top: 15%;
+}
+
+.mm-deal-form-button-p{
+    font-size: x-small;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mm-deal-form-button-save{
+    background-color: #1c4966;
+    color: white;
+}
+.mm-deal-form-button-clear{
+    background-color: transparent;
+    color: rgb(148, 148, 148);
+}
+.mm-deal-form-button-clear:hover{
+    text-decoration: underline;
+}

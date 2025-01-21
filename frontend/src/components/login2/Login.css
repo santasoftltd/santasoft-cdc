@@ -1,0 +1,18 @@
+.Main_Box{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 1fr;
+}
+
+.Sider_L{
+    margin: 5px;
+    padding-left: 10%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.Sider_R{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

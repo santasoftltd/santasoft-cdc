@@ -1,0 +1,28 @@
+.alm-reval-accrual-amortization-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 15px;
+}
+
+.alm-reval-accrual-amortization-sub-home-first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.alm-reval-accrual-amortization-sub-home-third-child label
+{
+    padding: 5px 0px 0px 10px;
+}
+
+.alm-reval-accrual-amortization-sub-home-third-child input{
+    border: none;
+    font-size: x-small;
+    padding: 5px 0px 0px 10px;
+    color: #1c4966;
+}

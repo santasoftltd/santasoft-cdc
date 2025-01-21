@@ -1,0 +1,66 @@
+.alm-income-cost-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 15px;
+}
+
+.alm-income-cost-sub-home-fist-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    gap: 15px;
+    margin: 10px;
+}
+
+.alm-income-cost-sub-home-second-child{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.alm-income-cost-sub-home-third-child{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.alm-income-cost-sub-home-fist-child-container label{
+    margin-bottom: 3px;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c4966;
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.alm-income-cost-sub-home-fist-child-container input{
+    margin-bottom: 5px;
+    border: 1px solid rgb(148, 148, 148);
+    width: 86%;
+    height: 20px;
+    border-radius: 3px;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 1px 0px 1px;
+}
+
+.alm-income-cost-sub-home-fist-child-container select{
+    margin-bottom: 5px;
+    border: 1px solid rgb(148, 148, 148);
+    /* display: inline; */
+    width: 97%;
+    height: 22px;
+    border-radius: 4px;
+    background-color: white;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 1px 0px 1px;
+}

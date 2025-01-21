@@ -1,0 +1,66 @@
+.fixed-income-securities-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.fixed-income-securities-sub-home-approval-dashboard{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.fixed-income-securities-sub-home-approval-dashboard-options{
+    /* border: 1px solid black; */
+    display: inline;
+    /* margin-top: 10px; */
+    padding: 5px 25px 3px 25px;
+    margin-left: 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    cursor: pointer;
+}
+
+.transaction-grid-multiple-button{
+    display: inline;
+    /* float: right; */
+    margin-right: 2px;
+    margin-top: 0.3%;
+    /* background-color: #f35921; */
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    /* width: 60px; */
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px 15px 0px 15px;
+    white-space: nowrap   
+}
+
+.float-component2{
+
+    width: min-content;  /* Adjust width as needed */
+    height: min-content; /* Adjust height as needed */
+    /* background-color: lightblue;  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fixed-income-securities-sub-home-float-form{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 10px;
+
+    width: 100%;
+}

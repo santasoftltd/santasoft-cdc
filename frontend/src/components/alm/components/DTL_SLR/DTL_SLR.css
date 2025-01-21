@@ -1,0 +1,16 @@
+.alm-dtl-slr-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr;
+    gap: 15px;
+}
+
+.alm-dtl-slr-deal-form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    width: min-content;
+}

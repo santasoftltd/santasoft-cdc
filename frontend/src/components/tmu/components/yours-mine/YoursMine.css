@@ -1,0 +1,33 @@
+.black-background{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+    left: 0;
+}
+
+.float-component{
+    height: 98vh;
+    width: 60%;
+    z-index:4;
+    position: fixed;
+    top: 0px;
+    right: 0;
+}
+.yours-mine-home{
+    /* border: 1px solid black; */
+    height: 100%;
+    padding-top: 36px;
+    background-color: rgb(243, 243, 243);
+}
+.yours-mine-sub-home{
+    /* border: 1px solid black; */
+    margin: 1.5% 1.7% 0px 1.7%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}

@@ -1,0 +1,135 @@
+.upload-security-transaction{
+    /* border: 1px solid black; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+}
+
+.black-background{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+    left: 0;
+}
+.float-component1{
+    height: 98vh;
+    width: 60%;
+    z-index:4;
+    position: fixed;
+    top: 31px;
+    right: 0;
+}
+
+.upload-security-transaction-home{
+    /* border: 1px solid black; */
+    height: 100%;
+    padding-top: 36px;
+    background-color: rgb(243, 243, 243);
+}
+.upload-security-transaction-sub-home{
+    /* border: 1px solid black; */
+    margin: 1.5% 1.7% 0px 1.7%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.security-transaction-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+}
+
+
+
+.security-transaction-deal-form{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 8px;
+    height: min-content;
+}
+
+.security-transaction-deal-form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    /* width: 300px; */
+    height: min-content;
+    /* border: 1px solid black; */
+}
+
+.security-transaction-deal-form-child-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 4fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+.security-transaction-deal-form label{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c4966;
+    display: block;
+    white-space: nowrap;
+}
+.security-transaction-deal-form input{
+    border: 1px solid rgb(148, 148, 148);
+    width: 120px;
+    height: 20px;
+    border-radius: 4px;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.security-transaction-deal-form select{
+    border: 1px solid rgb(148, 148, 148);
+    width: 125px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: white;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.security-transaction-deal-form input[type=checkbox]{
+    margin: 0px;
+    width: min-content;
+}
+
+.security-transaction-deal-form-button{
+    vertical-align: middle;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    /* margin-bottom: 1pc; */
+    margin-left: 0.1%;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 5%; */
+    margin-top: 5%;
+}
+.security-transaction-deal-form-button-save{
+    background-color: #1c4966;
+    color: white;
+}
+.security-transaction-deal-form-button-clear{
+    background-color: transparent;
+    color: rgb(148, 148, 148);
+}
+.security-transaction-deal-form-button-clear:hover{
+    text-decoration: underline;
+}

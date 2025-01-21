@@ -1,0 +1,26 @@
+.fixed-income-ips-accounts-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 10px;
+}
+
+.ips-account-action-button{
+    display: inline;
+    /* float: right; */
+    margin-left: 94%;
+    /* margin-top: 0.3%; */
+    /* background-color: #f35921; */
+    /* float: right; */
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 15px 6px 15px;
+    white-space: nowrap   
+}

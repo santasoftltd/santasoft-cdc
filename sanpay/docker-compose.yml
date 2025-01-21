@@ -1,0 +1,47 @@
+services:
+
+  web:
+    build: .
+    image: santasoft_sanpay:1.0.3  # Custom image name and tag
+    container_name: santasoft_sanpay  # Custom container name
+    command: gunicorn --bind 0.0.0.0:8000 config.wsgi:application --workers 3
+    volumes:
+      - .:/app
+      - C:/santasoft/config/cdc.config.txt:/app/cdc.config.txt
+      - C:/santasoft/logs/rtgs/:/app/logs/rtgs/
+      - C:/santasoft/logs/:/app/logs/
+    ports:
+      - "8002:8000"
+    depends_on:
+      - celery
+      - celery-beat
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - ENV PYTHONUNBUFFERED=1
+      - CDC_CONFIG_FILE=/app/cdc.config.txt
+
+  celery:
+    build: .
+    image: santasoft_sanpay_worker:1.0.0  # Custom image name and tag
+    container_name: santasoft_sanpay_worker  # Custom container name
+    command: celery -A config worker --loglevel=info
+    volumes:
+      - .:/app
+      - C:/santasoft/config/cdc.config.txt:/app/cdc.config.txt
+      - C:/santasoft/logs/rtgs/:/app/logs/rtgs/
+      - C:/santasoft/logs/:/app/logs/
+    environment:
+      - CDC_CONFIG_FILE=/app/cdc.config.txt
+
+  celery-beat:
+    build: .
+    image: santasoft_sanpay_scheduler:1.0.0  # Custom image name and tag
+    container_name: santasoft_sanpay_scheduler  # Custom container name
+    command: celery -A config beat --loglevel=info
+    volumes:
+      - .:/app
+      - C:/santasoft/config/cdc.config.txt:/app/cdc.config.txt
+      - C:/santasoft/logs/rtgs/:/app/logs/rtgs/
+      - C:/santasoft/logs/:/app/logs/
+    environment:
+      - CDC_CONFIG_FILE=/app/cdc.config.txt

@@ -1,0 +1,32 @@
+.message-box{
+    background-color: white;
+    box-shadow: 0px 0px 10px 4px #b3b3b3;
+    width: 300px;
+    height: fit-content;
+    padding: 10px 15px 10px 15px;
+    margin-top: 3%;
+    overflow-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.message-box-title{
+    margin: 0px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.message-box-content{
+    margin: 6px 0px 0px 0px;
+}
+
+.message-box-pic{
+    height: 17px;
+    vertical-align: middle;
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}

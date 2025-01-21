@@ -1,0 +1,8 @@
+.daily-income-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 3fr;
+    gap: 15px;
+}

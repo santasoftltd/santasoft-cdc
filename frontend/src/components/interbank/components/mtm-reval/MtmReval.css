@@ -1,0 +1,29 @@
+.mtm-reval-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.currencyBlock{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    /* color: white; */
+    margin-top: 35px;
+    margin-right: 200px;
+    border-radius: 4px;
+    font-size: x-small;
+    font-weight: 600;
+    align-items: center;
+    display: inline-flex;
+    padding: 0px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

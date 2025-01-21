@@ -1,0 +1,43 @@
+.alm-dashboard-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: max-content 3fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.summary{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 15px;
+    row-gap: 5px;
+    text-align: right;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+.summary label{
+    color: #1c4966;
+    display: inline;
+}
+
+.summary input[type=text]{
+    /* border: 1px solid ; */
+    color: black;
+    display: inline;
+    /* width: 0px; */
+    font-size: x-small;
+    border: none;
+    text-align: right;
+    margin-right: 4%;
+    padding: 0px;
+}
+
+.summary-heading{
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 0px 0px 4%;
+}

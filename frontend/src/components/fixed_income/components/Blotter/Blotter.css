@@ -1,0 +1,96 @@
+.fixed-income-real-time-blotter-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.fixed-income-securities-blotter-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+}
+
+.fixed-income-cash-blotter-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+}
+
+.fixed-income-audit-blotter-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+}
+
+.fixed-income-amc-blotter-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+}
+
+.fixed-income-overall-blotter-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr;
+    gap: 10px;
+}
+
+.fixed-income-blotter-selector-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* border: 1px solid black; */
+    height: 20px;
+    width: max-content;
+    /* background-color: #2196F3; */
+    /* color: white; */
+    margin-top: 38px;
+    margin-left: 220px;
+    border-radius: 4px;
+    font-size: small;
+    font-weight: 600;
+    align-items: center;
+    display: inline-flex;
+    /* padding: 0px 10px 0px 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fixed-income-blotter-selector{
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* z-index: 1; */
+    /* border: 1px solid black; */
+    height: 20px;
+    /* width: min-content; */
+    /* background-color: #2196F3; */
+    /* color: white; */
+    /* margin-top: 36px; */
+    /* margin-left: 220px; */
+    border-radius: 4px;
+    font-size: small;
+    font-weight: 600;
+    align-items: center;
+    display: inline-flex;
+    padding: 0px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}

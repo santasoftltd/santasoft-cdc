@@ -1,0 +1,13 @@
+.message-bar{
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+    margin-left: 4.5%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    z-index: 1;
+    align-items:flex-end;
+}

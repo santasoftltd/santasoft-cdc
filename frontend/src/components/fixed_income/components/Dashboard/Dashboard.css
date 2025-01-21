@@ -1,0 +1,130 @@
+.fixed-income-security-dashboard-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.fixed-income-cash-dashboard-sub-home{
+    /* border: 1px solid black; */
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.fixed-income-dashboard-selector-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* border: 1px solid black; */
+    height: 20px;
+    width: min-content;
+    /* background-color: #2196F3; */
+    /* color: white; */
+    margin-top: 38px;
+    margin-left: 220px;
+    border-radius: 4px;
+    font-size: small;
+    font-weight: 600;
+    align-items: center;
+    display: inline-flex;
+    /* padding: 0px 10px 0px 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fixed-income-dashboard-selector{
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* z-index: 1; */
+    /* border: 1px solid black; */
+    height: 20px;
+    /* width: min-content; */
+    /* background-color: #2196F3; */
+    /* color: white; */
+    /* margin-top: 36px; */
+    /* margin-left: 220px; */
+    border-radius: 4px;
+    font-size: small;
+    font-weight: 600;
+    align-items: center;
+    display: inline-flex;
+    padding: 0px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.fixed-income-dashboard-upload-transaction-button-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* border: 1px solid black; */
+    height: 20px;
+    width: max-content;
+    /* background-color: #2196F3; */
+    /* color: white; */
+    margin-top: 40px;
+    /* margin-left: 380px; */
+    border-radius: 4px;
+    font-size: x-small;
+    font-weight: 600;
+    align-items: center;
+    display: inline-flex;
+    /* padding: 0px 10px 0px 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.fixed-income-dashboard-upload-transaction-button-container:hover{
+    color: #2196F3;
+}
+
+
+.upload-sbp-charges{
+    /* border: 1px solid black; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+}
+
+.black-background{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+    left: 0;
+}
+.float-component1{
+    height: 98vh;
+    width: 60%;
+    z-index:4;
+    position: fixed;
+    top: 31px;
+    right: 0;
+}
+
+.upload-sbp-charges-home{
+    /* border: 1px solid black; */
+    height: 100%;
+    padding-top: 36px;
+    background-color: rgb(243, 243, 243);
+}
+.upload-sbp-charges-sub-home{
+    /* border: 1px solid black; */
+    margin: 1.5% 1.7% 0px 1.7%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
