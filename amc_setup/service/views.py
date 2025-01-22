@@ -2,7 +2,7 @@ from rest_framework.views import Response
 from rest_framework import status
 from rest_framework.views import APIView
 from .models.AMC import AMC
-from django.shortcuts import get_object_or_404
+from django.core.exceptions import ObjectDoesNotExist
 
 
 class API(APIView):
@@ -64,7 +64,7 @@ class API(APIView):
         try:
             data = request.data['Data']
             try:
-                amc = get_object_or_404(AMC, id=data['id'])
+                amc = AMC.objects.get(id=data['id'])
                 is_success, error_message = amc.update_amc(id=data['id'],name=data['name'])
                 if is_success:
                     response = Response({
@@ -74,7 +74,7 @@ class API(APIView):
                     response = Response({
                     'message': error_message
                     }, status=status.HTTP_400_BAD_REQUEST)
-            except:
+            except ObjectDoesNotExist:
                 response = Response({
                         'message': 'Object not found.'
                     }, status=status.HTTP_400_BAD_REQUEST)
@@ -89,7 +89,7 @@ class API(APIView):
         try:
             data = request.data['Data']
             try:
-                amc = get_object_or_404(AMC, id=data['id'])
+                amc = AMC.objects.get(id=data['id'])
                 is_success, error_message = amc.delete_amc()
                 if is_success:
                     response = Response({
@@ -99,7 +99,7 @@ class API(APIView):
                     response = Response({
                     'message': error_message
                     }, status=status.HTTP_400_BAD_REQUEST)
-            except:
+            except ObjectDoesNotExist:
                 response = Response({
                         'message': 'Object not found.'
                     }, status=status.HTTP_400_BAD_REQUEST)
