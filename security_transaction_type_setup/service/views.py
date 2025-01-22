@@ -65,7 +65,7 @@ class API(APIView):
             data = request.data['Data']
             try:
                 object = SecurityTransactionType.objects.get(id=data['id'])
-                is_success, error_message = object.update_object(id=data['id'],name=data['type'])
+                is_success, error_message = object.update_object(id=data['id'],type=data['type'])
                 if is_success:
                     response = Response({
                         'message': 'Success'
